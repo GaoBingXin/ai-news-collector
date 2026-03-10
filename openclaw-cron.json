@@ -1,0 +1,14 @@
+{
+  "name": "ai-news-collector",
+  "description": "每天8点采集AI热点资讯并部署",
+  "schedule": "0 8 * * *",
+  "command": "cd /home/node/.openclaw/workspace/ai-news-collector && npm run all",
+  "enabled": true,
+  "notify": true,
+  "timezone": "Asia/Shanghai",
+  "output": "/home/node/.openclaw/workspace/ai-news-collector/logs/cron.log",
+  "env": {
+    "VERCEL_TOKEN": "vcp_02wC5OyXJgW05hHayuBQAR6GV8itxaZm6TSTNdbOYu0FblBBXV3XcGnl",
+    "NODE_ENV": "production"
+  }
+}

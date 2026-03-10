@@ -1,0 +1,22 @@
+{
+  "name": "ai-news-collector",
+  "version": "1.0.0",
+  "description": "AI热点资讯自动采集和展示平台",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "collect": "node scripts/collect-news.js",
+    "build": "node scripts/generate-html.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "rss-parser": "^3.13.0",
+    "marked": "^11.0.0",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  }
+}
