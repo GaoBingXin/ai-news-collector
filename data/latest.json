@@ -3,6 +3,17 @@
   "count": 15,
   "news": [
     {
+      "title": "Anthropic工程师都离不开！深夜随手撸出的开源神器，被OpenAl高价收购，23人创业逆袭",
+      "link": "https://www.infoq.cn/article/a6GdY75EJ4PmCadmXxyY?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Wed, 11 Mar 2026 09:58:02 GMT",
+      "summary": "《Anthropic工程师都离不开！深夜随手撸出的开源神器，被OpenAl高价收购，23人创业逆袭》是一篇关于人工智能技术的详细报道。报道主要关注整理 | 华卫 昨日 OpenAI 宣布收购了 Promptfoo 以保障其 AI 智能体的安全 这家成立于 2024 年的 AI 安全初创公司 专注于保护大语言模型免受网络攻击 OpenAI 在一篇。文章深入分析了3k Stars 同时 该项目拥有超过 248 名贡献者 且被包括 Anthropic 谷歌在内的全行业开发者广泛使用  开源项目链接 https://github... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，com/promptfoo/promptfoo#readme 头部 AI 玩家全面加码 安全工具集中上线如今 OpenAI 及其竞争对手正竞相研发更先进的 AI 智能体 这些智能体可代表用户完成复杂任务 且仅需极少的人工干预 而当下 不法分子正利用类似技术寻找入侵关键网络的途径 能够自主执行数字任务... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "Anthropic",
+      "contentLength": 3123,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
       "title": "模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了",
       "link": "https://www.infoq.cn/article/5q7ysFgsdBqjLuqGxGyz?utm_source=rss&utm_medium=article",
       "source": "InfoQ AI",
@@ -80,28 +91,6 @@
       "hasFullContent": false
     },
     {
-      "title": "OpenClaw 大更新：最值得关注的不是 GPT-5.4，而是 memory",
-      "link": "https://www.infoq.cn/article/3Edwvdt46RR8Sd1ewSkQ?utm_source=rss&utm_medium=article",
-      "source": "InfoQ AI",
-      "date": "Tue, 10 Mar 2026 16:00:53 GMT",
-      "summary": "《OpenClaw 大更新：最值得关注的不是 GPT-5.4，而是 memory》是一篇关于人工智能技术的详细报道。报道主要关注最近 最火的 Agent 项目 OpenClaw 又迎来一次大更新 支持 GPT-5。文章深入分析了4 加入 Context Engine 插件接口 记忆系统可以热插拔 GitHub Star 也突破了 28 万  表面看 这次更新内容很多 搜索 插件 通信渠道 容器部署 安全机制  几乎是一次全面升级 但如果只抓一个最关键的变化 其实是... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
-      "category": "OpenAI",
-      "contentLength": 1102,
-      "language": "zh",
-      "hasFullContent": true
-    },
-    {
-      "title": "OpenAI 也要 IPO 了，但这次只能争“全球第三”",
-      "link": "https://www.infoq.cn/article/WDSbYFmuBNTG1652FzXB?utm_source=rss&utm_medium=article",
-      "source": "InfoQ AI",
-      "date": "Tue, 10 Mar 2026 15:45:54 GMT",
-      "summary": "《OpenAI 也要 IPO 了，但这次只能争“全球第三”》是一篇关于人工智能技术的详细报道。报道主要关注看起来 2026 年可能要变成 大模型上市年 了 MiniMax 智谱之后 国内的阶跃星辰 以及海外的 OpenAI Anthropic 也都开始认真准备 IPO 那么全球第三家上市的大模型公司 到底。文章深入分析了7 万亿美元 而在 7300 亿美元的估值水平上 OpenAI 已经进入了一个完全不同的体量级别 也反映出投资者对前沿 AI 的巨大信心  对上市这件事 OpenAI 首席执行官 Sam Altman 的表现也很神奇 他在去年 12 月接受... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
-      "category": "OpenAI",
-      "contentLength": 1076,
-      "language": "zh",
-      "hasFullContent": true
-    },
-    {
       "title": "What Are Agent Skills Beyond Claude?",
       "link": "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
       "source": "Towards Data Science",
@@ -166,6 +155,17 @@
       "contentLength": 0,
       "language": "en",
       "hasFullContent": false
+    },
+    {
+      "title": "Why Your AI Search Evaluation Is Probably Wrong (And How to Fix It)",
+      "link": "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
+      "source": "Towards Data Science",
+      "date": "Mon, 09 Mar 2026 13:30:00 +0000",
+      "summary": "A five-step framework for building rigorous, reproducible AI search benchmarks — before you make six-figure infrastructure decisions \nThe post Why Your AI Search Evaluation Is Probably Wrong (And How to Fix It) appeared first on Towards Data Science.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
     }
   ],
   "sources": [
@@ -177,5 +177,5 @@
     "Analytics Vidhya",
     "AI News (英文)"
   ],
-  "generatedAt": "2026-03-11T01:52:49.493Z"
+  "generatedAt": "2026-03-11T02:09:04.364Z"
 }
