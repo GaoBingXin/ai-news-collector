@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI热点资讯日报 - 2026年03月10日</title>
+    <title>AI热点资讯日报 - 2026年03月11日</title>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
     <style>
         * {
@@ -19,6 +19,7 @@
             min-height: 100vh;
             color: #333;
             line-height: 1.6;
+            padding-bottom: 40px;
         }
 
         .container {
@@ -47,6 +48,9 @@
             font-size: 1.2rem;
             opacity: 0.9;
             margin-bottom: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .date-badge {
@@ -57,19 +61,20 @@
             border-radius: 50px;
             font-size: 1rem;
             border: 1px solid rgba(255,255,255,0.3);
+            margin-top: 10px;
         }
 
         .stats {
             background: rgba(255,255,255,0.1);
             backdrop-filter: blur(10px);
             border-radius: 20px;
-            padding: 20px;
+            padding: 25px;
             margin-bottom: 40px;
             border: 1px solid rgba(255,255,255,0.2);
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
+            text-align: center;
         }
 
         .stat-item {
@@ -101,6 +106,8 @@
             overflow: hidden;
             box-shadow: 0 20px 40px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
         }
 
         .category-card:hover {
@@ -113,6 +120,7 @@
             color: white;
             position: relative;
             overflow: hidden;
+            flex-shrink: 0;
         }
 
         .category-title {
@@ -142,12 +150,16 @@
 
         .news-list {
             padding: 0;
+            flex: 1;
+            overflow-y: auto;
         }
 
         .news-item {
-            padding: 20px 30px;
+            padding: 25px 30px;
             border-bottom: 1px solid #f0f0f0;
             transition: background-color 0.2s ease;
+            display: flex;
+            flex-direction: column;
         }
 
         .news-item:hover {
@@ -159,9 +171,9 @@
         }
 
         .news-title {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             font-weight: 600;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
             line-height: 1.4;
         }
 
@@ -169,10 +181,33 @@
             color: #333;
             text-decoration: none;
             transition: color 0.2s ease;
+            display: block;
         }
 
         .news-title a:hover {
             color: #667eea;
+        }
+
+        .news-summary {
+            color: #555;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin: 12px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .news-details {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin: 10px 0;
+            padding: 12px;
+            background: #f0f7ff;
+            border-radius: 8px;
+            border: 1px solid #e3f2fd;
         }
 
         .news-meta {
@@ -181,25 +216,58 @@
             align-items: center;
             font-size: 0.85rem;
             color: #666;
-            margin-top: 10px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
         }
 
         .news-source {
             background: #f0f0f0;
-            padding: 4px 12px;
+            padding: 6px 14px;
             border-radius: 15px;
             font-weight: 500;
+            display: inline-flex;
+            align-items: center;
         }
 
         .news-date {
             opacity: 0.7;
+            display: flex;
+            align-items: center;
+            gap: 5px;
         }
 
-        .news-summary {
-            color: #555;
-            font-size: 0.95rem;
-            line-height: 1.5;
-            margin-top: 8px;
+        .news-date::before {
+            content: "🕒";
+            font-size: 0.8rem;
+        }
+
+        .news-category {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: color 0.2s ease;
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        .read-more::after {
+            content: " →";
         }
 
         .footer {
@@ -208,11 +276,28 @@
             padding: 40px 0;
             opacity: 0.8;
             font-size: 0.9rem;
+            margin-top: 40px;
         }
 
         .footer a {
             color: white;
             text-decoration: underline;
+        }
+
+        .footer a:hover {
+            opacity: 0.9;
+        }
+
+        .ai-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 10px;
+            vertical-align: middle;
         }
 
         @media (max-width: 768px) {
@@ -227,39 +312,67 @@
             .container {
                 padding: 20px 15px;
             }
+            
+            .news-item {
+                padding: 20px;
+            }
+            
+            .stats {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
         }
 
         /* 类别颜色配置 */
         .category-openai .category-header { background: linear-gradient(135deg, #10a37f 0%, #0d7a5f 100%); }
+        .category-openai .news-category { background: #e6f7f2; color: #10a37f; }
+        
         .category-google .category-header { background: linear-gradient(135deg, #4285f4 0%, #2d5aa0 100%); }
+        .category-google .news-category { background: #e8f0fe; color: #4285f4; }
+        
         .category-anthropic .category-header { background: linear-gradient(135deg, #9d50bb 0%, #6e48aa 100%); }
+        .category-anthropic .news-category { background: #f3e5f5; color: #9d50bb; }
+        
         .category-deepseek .category-header { background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%); }
+        .category-deepseek .news-category { background: #e1f5fe; color: #0077b6; }
+        
         .category-图像生成 .category-header { background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%); }
+        .category-图像生成 .news-category { background: #ffebee; color: #ff6b6b; }
+        
         .category-语言模型 .category-header { background: linear-gradient(135deg, #48cae4 0%, #0096c7 100%); }
+        .category-语言模型 .news-category { background: #e0f7fa; color: #0096c7; }
+        
         .category-研究进展 .category-header { background: linear-gradient(135deg, #06d6a0 0%, #04a777 100%); }
+        .category-研究进展 .news-category { background: #e8f5e9; color: #06d6a0; }
+        
         .category-ai综合 .category-header { background: linear-gradient(135deg, #7209b7 0%, #560bad 100%); }
+        .category-ai综合 .news-category { background: #f3e5f5; color: #7209b7; }
     </style>
 </head>
 <body>
     <div class="container">
         <header class="header">
             <h1 class="title">AI热点资讯日报</h1>
-            <p class="subtitle">全网最新人工智能热点资讯，每日更新</p>
-            <div class="date-badge">2026年03月10日</div>
+            <p class="subtitle">每日精选全网最新人工智能热点资讯，涵盖OpenAI、Google、DeepSeek、图像生成、语言模型等前沿领域</p>
+            <div class="date-badge">2026年03月11日 · 每日自动更新</div>
         </header>
 
         <div class="stats">
             <div class="stat-item">
-                <div class="stat-number">4</div>
-                <div class="stat-label">今日资讯</div>
+                <div class="stat-number">15</div>
+                <div class="stat-label">今日精选资讯</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">2</div>
+                <div class="stat-number">4</div>
                 <div class="stat-label">资讯分类</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number">量子位</div>
-                <div class="stat-label">主要来源</div>
+                <div class="stat-number">4</div>
+                <div class="stat-label">资讯来源</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">09:52</div>
+                <div class="stat-label">更新时间</div>
             </div>
         </div>
 
@@ -269,47 +382,299 @@
                 <div class="category-header">
                     <div class="category-bg"></div>
                     <h2 class="category-title">AI综合</h2>
-                    <div class="category-count">3 条资讯</div>
+                    <div class="category-count">7 条精选资讯</div>
                 </div>
                 <div class="news-list">
                     
                     <div class="news-item">
                         <h3 class="news-title">
+                            <a href="https://www.infoq.cn/article/5q7ysFgsdBqjLuqGxGyz?utm_source=rss&utm_medium=article" target="_blank" rel="noopener noreferrer">
+                                模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了》是一篇关于人工智能技术的详细报道。报道主要关注模力工场新鲜事OpenClaw 的火爆还在持续 但与其隔着屏幕围观 不如带上电脑来现场 OpenClaw 中国行来了 模力工场倾力参与其中 就是想让每个人都能 30 分钟跑通自己的 AI 从公益装机。文章深入分析了ai 输入 GitHub 仓库链接 AI 自动扫描生成结构化项目说明书 让开发者秒懂陌生代码 告别逐行翻阅的烦恼 神笔AI Agent 杭州 企业级 AI 自动化平台 业务人员无需编程 用自然语言描述即可搭建自动化流程 已在电商 营销等... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">AI综合</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 InfoQ AI</span>
+                            <span class="news-date">5小时前</span>
+                        </div>
+                        
+                        <a href="https://www.infoq.cn/article/5q7ysFgsdBqjLuqGxGyz?utm_source=rss&utm_medium=article" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.infoq.cn/article/m4lQlXIAK0st0siiQzgk?utm_source=rss&utm_medium=article" target="_blank" rel="noopener noreferrer">
+                                无需代理也能零信任：Akamai 联合英伟达推出 DPU 安全方案
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《无需代理也能零信任：Akamai 联合英伟达推出 DPU 安全方案》是一篇关于人工智能技术的详细报道。报道主要关注在工业控制系统 能源网络以及交通基础设施等关键领域 网络安全一直面临一个长期存在的矛盾 系统需要保持持续稳定运行 但传统安全工具往往会对性能和稳定性产生影响 尤其是在运营技术 OT 和工业控制系统 I。该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">AI综合</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 InfoQ AI</span>
+                            <span class="news-date">7小时前</span>
+                        </div>
+                        
+                        <a href="https://www.infoq.cn/article/m4lQlXIAK0st0siiQzgk?utm_source=rss&utm_medium=article" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.artificialintelligence-news.com/news/abb-physical-ai-simulation-secures-factory-automation-roi/" target="_blank" rel="noopener noreferrer">
+                                ABB: Physical AI simulation boosts ROI for factory automation
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            A new ABB and NVIDIA partnership shows physical AI simulation is driving real ROI in factory automation and solving production hurdles. Manufacturers have often found it difficult to make intelligent robotics work reliably outside testing environments. The core issue is the gap between digital training models and actual factory floors, where lighting, material physics, and […] The post ABB: Physic...
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">AI综合</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 AI News (英文)</span>
+                            <span class="news-date">8小时前</span>
+                        </div>
+                        
+                        <a href="https://www.artificialintelligence-news.com/news/abb-physical-ai-simulation-secures-factory-automation-roi/" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/" target="_blank" rel="noopener noreferrer">
+                                Hybrid Neuro-Symbolic Fraud Detection: Guiding Neural Networks with Domain Rules
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            I really thought I was onto something big: add a couple of simple domain rules to the loss function, and watch fraud detection just skyrocket on super-imbalanced data. The first run looked amazing… until I fixed a sneaky threshold bug and ran the whole thing across five different random seeds. Suddenly the “huge win” mostly evaporated. The post Hybrid Neuro-Symbolic Fraud Detection: Guiding Neural...
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">AI综合</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 Towards Data Science</span>
+                            <span class="news-date">9小时前</span>
+                        </div>
+                        
+                        <a href="https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.artificialintelligence-news.com/news/agentic-ai-in-finance-speeds-up-operational-automation/" target="_blank" rel="noopener noreferrer">
+                                Agentic AI in finance speeds up operational automation
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            In finance, achieving operational automation by integrating agentic AI requires a data-centric foundation to drive real value. Financial infrastructure provider SEI has engaged IBM to modernise its internal operations via AI and automation. The joint initiative focuses on process redesign and targeted system updates to deliver consistent client experiences, building a modern and data-enabled found...
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">AI综合</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 AI News (英文)</span>
+                            <span class="news-date">12小时前</span>
+                        </div>
+                        
+                        <a href="https://www.artificialintelligence-news.com/news/agentic-ai-in-finance-speeds-up-operational-automation/" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.artificialintelligence-news.com/news/mastercard-agentic-payments-singapore-dbs-uob/" target="_blank" rel="noopener noreferrer">
+                                Mastercard brings agentic payments to life in Singapore with DBS and UOB
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            Mastercard has completed its first live, authenticated agent-based payment transaction in Singapore, a milestone that advances autonomous AI commerce from proof of concept to everyday use. Announced on March 4, 2026, the transaction was carried out in partnership with DBS and UOB, two of Southeast Asia’s largest banks. In the demonstration, an AI agent booked […] The post Mastercard brings agentic...
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">AI综合</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 AI News (英文)</span>
+                            <span class="news-date">18小时前</span>
+                        </div>
+                        
+                        <a href="https://www.artificialintelligence-news.com/news/mastercard-agentic-payments-singapore-dbs-uob/" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
                             <a href="https://www.qbitai.com/2026/03/385127.html" target="_blank" rel="noopener noreferrer">
                                 Meta亚历山大王走人？小扎回应了
+                                <span class="ai-badge">AI</span>
                             </a>
                         </h3>
-                        <div class="news-summary">刚满29岁的Meta AI一号位...</div>
-                        <div class="news-meta">
-                            <span class="news-source">量子位</span>
-                            <span class="news-date">3小时前</span>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《Meta亚历山大王走人？小扎回应了》是一篇关于人工智能技术的详细报道。报道主要关注< img id="wx img" src="https://www。文章深入分析了com/wp-content/uploads/imgs/qbitai-logo-1... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，png" width="400" height="400"> Meta亚历山大王走人 小扎回应了 henry 2026-03-10 13:23:30 来源 量子位 刚满29岁的Meta AI一号位 henry 发自 凹非寺 量子位 | 公众号 QbitAI 亚历山大王 Alexandr Wang ... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。
                         </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">AI综合</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 量子位</span>
+                            <span class="news-date">20小时前</span>
+                        </div>
+                        
+                        <a href="https://www.qbitai.com/2026/03/385127.html" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="category-card category-anthropic">
+                <div class="category-header">
+                    <div class="category-bg"></div>
+                    <h2 class="category-title">Anthropic</h2>
+                    <div class="category-count">3 条精选资讯</div>
+                </div>
+                <div class="news-list">
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.infoq.cn/article/2RV73l1Iyabgij0Ou3hr?utm_source=rss&utm_medium=article" target="_blank" rel="noopener noreferrer">
+                                Cloudflare：我们如何用 OpenCode 和 Claude，在一周内重构 Next.js
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《Cloudflare：我们如何用 OpenCode 和 Claude，在一周内重构 Next.js》是一篇关于人工智能技术的详细报道。报道主要关注上周 一名工程师从零开始 用 AI 模型重构了当下最流行的前端框架 最终得到了 vinext 读作 vee-next 它可作为 Next。文章深入分析了js 的即插即用替代方案 基于 Vite 构建 仅需一条命令就能部署到 Cloudflare Workers 在初步基准测试中 生产环境应用的构建速度最高提升 4 倍 客户端打包体积最高减小 57% 目前已有客户在生产环境中正式使用 整个项... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，js 是最流行的 React 框架 拥有数百万开发者用户 支撑着互联网上相当一部分生产环境应用 这背后有着充分的理由 它拥有一流的开发者体验 但当 Next... 对于关注人工...
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">Anthropic</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习 · Claude</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 InfoQ AI</span>
+                            <span class="news-date">7小时前</span>
+                        </div>
+                        
+                        <a href="https://www.infoq.cn/article/2RV73l1Iyabgij0Ou3hr?utm_source=rss&utm_medium=article" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
                     </div>
                     
                     <div class="news-item">
                         <h3 class="news-title">
-                            <a href="https://www.qbitai.com/2026/03/385066.html" target="_blank" rel="noopener noreferrer">
-                                首个物理AI数据基座平台“无垠”落户浙江，专治机器人数据荒，家庭工业商业场景全覆盖
+                            <a href="https://www.infoq.cn/article/WFMcDd9FOLLLv3jpamv5?utm_source=rss&utm_medium=article" target="_blank" rel="noopener noreferrer">
+                                Claude 开始收“代码审核税”：一条 PR 25 美元，大厂一年或花百万，还得上交整个代码库
+                                <span class="ai-badge">AI</span>
                             </a>
                         </h3>
-                        <div class="news-summary">打通训练到商业化落地...</div>
-                        <div class="news-meta">
-                            <span class="news-source">量子位</span>
-                            <span class="news-date">22小时前</span>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《Claude 开始收“代码审核税”：一条 PR 25 美元，大厂一年或花百万，还得上交整个代码库》是一篇关于人工智能技术的详细报道。报道主要关注3 月 9 日 Anthropic 推出了一款新的代码审查产品 Code Review 主打在人工介入之前 先用 AI 自动检查 Pull Request 中的问题 这项服务面向团队和企业用户 瞄准。文章深入分析了39 美元 问题在于 这样的价格一旦放到真实的工程规模里 成本会迅速放大 网友 DanT @uyintans 就直接指出 如果一家中大型公司每天都会产生大量 Pull Request 而每个 PR 都要花 15 到 25 美元来审查 那... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，5 个问题 对于少于 50 行的小型 Pull Request 31% 会收到评论 平均 0... 对于关注人工智能、机...
                         </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">Anthropic</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习 · Claude · Anthropic</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 InfoQ AI</span>
+                            <span class="news-date">8小时前</span>
+                        </div>
+                        
+                        <a href="https://www.infoq.cn/article/WFMcDd9FOLLLv3jpamv5?utm_source=rss&utm_medium=article" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
                     </div>
                     
                     <div class="news-item">
                         <h3 class="news-title">
-                            <a href="https://www.qbitai.com/2026/03/384926.html" target="_blank" rel="noopener noreferrer">
-                                “最美PM”宋紫薇获红杉蚂蚁投资，创业方向略有调整，转向AI护肤
+                            <a href="https://towardsdatascience.com/what-is-agent-skills-beyond-claude/" target="_blank" rel="noopener noreferrer">
+                                What Are Agent Skills Beyond Claude?
+                                <span class="ai-badge">AI</span>
                             </a>
                         </h3>
-                        <div class="news-summary">暂避大厂锋芒...</div>
-                        <div class="news-meta">
-                            <span class="news-source">量子位</span>
-                            <span class="news-date">3月9日</span>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            How to design and implement agent skills for custom agents outside the Claude ecosystem The post What Are Agent Skills Beyond Claude? appeared first on Towards Data Science.
                         </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">Anthropic</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>Claude</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 Towards Data Science</span>
+                            <span class="news-date">12小时前</span>
+                        </div>
+                        
+                        <a href="https://towardsdatascience.com/what-is-agent-skills-beyond-claude/" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
                     </div>
                     
                 </div>
@@ -319,21 +684,159 @@
                 <div class="category-header">
                     <div class="category-bg"></div>
                     <h2 class="category-title">OpenAI</h2>
-                    <div class="category-count">1 条资讯</div>
+                    <div class="category-count">4 条精选资讯</div>
                 </div>
                 <div class="news-list">
                     
                     <div class="news-item">
                         <h3 class="news-title">
-                            <a href="https://www.qbitai.com/2026/03/385010.html" target="_blank" rel="noopener noreferrer">
-                                打败GPT-5.2，嵌入真实工业生产，这个大模型什么来头？
+                            <a href="https://www.infoq.cn/article/orOZQwP7FExoPfwwDlJP?utm_source=rss&utm_medium=article" target="_blank" rel="noopener noreferrer">
+                                GPT-5.4 发布：OpenAI 新模型会自己用电脑了，正面撞上 OpenClaw
+                                <span class="ai-badge">AI</span>
                             </a>
                         </h3>
-                        <div class="news-summary">...</div>
-                        <div class="news-meta">
-                            <span class="news-source">量子位</span>
-                            <span class="news-date">3月9日</span>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《GPT-5.4 发布：OpenAI 新模型会自己用电脑了，正面撞上 OpenClaw》是一篇关于人工智能技术的详细报道。报道主要关注4 发布 那个熟悉的 OpenAI 又回来了 GPT-5。文章深入分析了4 是一款新的前沿模型 把 OpenAI 过去一段时间在推理能力 GPT-5... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，3-Codex 以及原生计算机使用能力上的进展 整合到了同一个版本里 这次发布的分量很重 光是 原生电脑操作 这一点 就已经足够吸引眼球 而当它再叠加顶级的专业知识工作能力 100 万 token 的上下文窗口 以及明显提升的工具使用效率时 对所有希望用 AI 工作 与 AI 协作 或者基于 AI... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。
                         </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">OpenAI</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习 · GPT · OpenAI</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 InfoQ AI</span>
+                            <span class="news-date">8小时前</span>
+                        </div>
+                        
+                        <a href="https://www.infoq.cn/article/orOZQwP7FExoPfwwDlJP?utm_source=rss&utm_medium=article" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.infoq.cn/article/3Edwvdt46RR8Sd1ewSkQ?utm_source=rss&utm_medium=article" target="_blank" rel="noopener noreferrer">
+                                OpenClaw 大更新：最值得关注的不是 GPT-5.4，而是 memory
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《OpenClaw 大更新：最值得关注的不是 GPT-5.4，而是 memory》是一篇关于人工智能技术的详细报道。报道主要关注最近 最火的 Agent 项目 OpenClaw 又迎来一次大更新 支持 GPT-5。文章深入分析了4 加入 Context Engine 插件接口 记忆系统可以热插拔 GitHub Star 也突破了 28 万 表面看 这次更新内容很多 搜索 插件 通信渠道 容器部署 安全机制 几乎是一次全面升级 但如果只抓一个最关键的变化 其实是... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">OpenAI</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习 · GPT</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 InfoQ AI</span>
+                            <span class="news-date">9小时前</span>
+                        </div>
+                        
+                        <a href="https://www.infoq.cn/article/3Edwvdt46RR8Sd1ewSkQ?utm_source=rss&utm_medium=article" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.infoq.cn/article/WDSbYFmuBNTG1652FzXB?utm_source=rss&utm_medium=article" target="_blank" rel="noopener noreferrer">
+                                OpenAI 也要 IPO 了，但这次只能争“全球第三”
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《OpenAI 也要 IPO 了，但这次只能争“全球第三”》是一篇关于人工智能技术的详细报道。报道主要关注看起来 2026 年可能要变成 大模型上市年 了 MiniMax 智谱之后 国内的阶跃星辰 以及海外的 OpenAI Anthropic 也都开始认真准备 IPO 那么全球第三家上市的大模型公司 到底。文章深入分析了7 万亿美元 而在 7300 亿美元的估值水平上 OpenAI 已经进入了一个完全不同的体量级别 也反映出投资者对前沿 AI 的巨大信心 对上市这件事 OpenAI 首席执行官 Sam Altman 的表现也很神奇 他在去年 12 月接受... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">OpenAI</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习 · 大模型 · OpenAI</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 InfoQ AI</span>
+                            <span class="news-date">10小时前</span>
+                        </div>
+                        
+                        <a href="https://www.infoq.cn/article/WDSbYFmuBNTG1652FzXB?utm_source=rss&utm_medium=article" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://www.qbitai.com/2026/03/385637.html" target="_blank" rel="noopener noreferrer">
+                                OpenAI为龙虾紧急收购了一家23人公司
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            《OpenAI为龙虾紧急收购了一家23人公司》是一篇关于人工智能技术的详细报道。报道主要关注< img id="wx img" src="https://www。文章深入分析了com/wp-content/uploads/imgs/qbitai-logo-1... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，png" width="400" height="400"> OpenAI为龙虾紧急收购了一家23人公司 一水 2026-03-10 16:13:46 来源 量子位 23人团队两年干出8600万估值 龙虾太火 OpenAI也是动作不停 前脚刚挖来龙虾之父 后脚又立马收购了一家新公司 而且瞄准的... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">OpenAI</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>AI · 人工智能 · 机器学习 · OpenAI</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 量子位</span>
+                            <span class="news-date">17小时前</span>
+                        </div>
+                        
+                        <a href="https://www.qbitai.com/2026/03/385637.html" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="category-card category-google">
+                <div class="category-header">
+                    <div class="category-bg"></div>
+                    <h2 class="category-title">Google</h2>
+                    <div class="category-count">1 条精选资讯</div>
+                </div>
+                <div class="news-list">
+                    
+                    <div class="news-item">
+                        <h3 class="news-title">
+                            <a href="https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/" target="_blank" rel="noopener noreferrer">
+                                I Stole a Wall Street Trick to Solve a Google Trends Data Problem
+                                <span class="ai-badge">AI</span>
+                            </a>
+                        </h3>
+                        
+                        <div class="news-summary">
+                            <strong>📝 资讯摘要：</strong>
+                            A methodology for comparing Google Trends data across countries. The post I Stole a Wall Street Trick to Solve a Google Trends Data Problem appeared first on Towards Data Science.
+                        </div>
+                        
+                        <div class="news-details">
+                            <div><strong>🏷️ 分类：</strong><span class="news-category">Google</span></div>
+                            <div style="margin-top: 5px;"><strong>🔍 关键词：</strong>Google</div>
+                        </div>
+                        
+                        <div class="news-meta">
+                            <span class="news-source">📰 Towards Data Science</span>
+                            <span class="news-date">1天前</span>
+                        </div>
+                        
+                        <a href="https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/" class="read-more" target="_blank" rel="noopener noreferrer">
+                            阅读完整报道
+                        </a>
                     </div>
                     
                 </div>
@@ -343,29 +846,33 @@
     </div>
 
     <footer class="footer">
-        <p>🤖 本页面由AI自动生成，数据来源于各大AI资讯网站</p>
-        <p>📅 更新时间：2026-03-10 16:56:44</p>
-        <p>🔗 项目开源地址：<a href="https://github.com/GaoBingXin/ai-news-collector" target="_blank">GitHub</a></p>
+        <p>🤖 本页面由AI自动生成，数据来源于各大AI资讯网站和官方博客</p>
+        <p>📅 更新时间：2026-03-11 09:52:50</p>
+        <p>🔗 项目开源地址：<a href="https://github.com/GaoBingXin/ai-news-collector" target="_blank">GitHub</a> · 部署平台：<a href="https://vercel.com" target="_blank">Vercel</a></p>
+        <p style="margin-top: 10px; font-size: 0.8rem; opacity: 0.7;">⚠️ 资讯内容由原网站提供，本页面仅作聚合展示</p>
     </footer>
 
     <script>
-        // 简单的页面交互
+        // 页面交互功能
         document.addEventListener('DOMContentLoaded', function() {
             // 添加点击统计
-            const newsLinks = document.querySelectorAll('.news-title a');
+            const newsLinks = document.querySelectorAll('.news-title a, .read-more');
             newsLinks.forEach(link => {
-                link.addEventListener('click', function() {
+                link.addEventListener('click', function(e) {
                     console.log('资讯点击:', this.textContent);
+                    // 可以在这里添加统计代码
                 });
             });
 
-            // 自动刷新页面（每天一次）
-            const refreshTime = 24 * 60 * 60 * 1000; // 24小时
+            // 自动刷新页面（每2小时）
+            const refreshTime = 2 * 60 * 60 * 1000;
             setTimeout(() => {
-                location.reload();
+                if (confirm('页面已过时，是否刷新获取最新资讯？')) {
+                    location.reload();
+                }
             }, refreshTime);
 
-            // 添加滚动动画
+            // 添加卡片动画
             const observerOptions = {
                 threshold: 0.1,
                 rootMargin: '0px 0px -50px 0px'
@@ -387,24 +894,52 @@
                 card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
                 observer.observe(card);
             });
+
+            // 添加分类标签点击功能
+            document.querySelectorAll('.news-category').forEach(tag => {
+                tag.addEventListener('click', function() {
+                    const category = this.textContent;
+                    alert('筛选功能即将上线！将显示所有"' + category + '"类别的资讯');
+                });
+            });
         });
 
-        // 格式化日期
+        // 格式化日期显示
         function formatDate(dateString) {
-            const date = new Date(dateString);
-            const now = new Date();
-            const diff = now - date;
-            
-            if (diff < 60 * 60 * 1000) { // 1小时内
-                return '刚刚';
-            } else if (diff < 24 * 60 * 60 * 1000) { // 24小时内
-                const hours = Math.floor(diff / (60 * 60 * 1000));
-                return `${hours}小时前`;
+            try {
+                const date = new Date(dateString);
+                const now = new Date();
+                const diff = now - date;
+                
+                if (diff < 60 * 60 * 1000) { // 1小时内
+                    return '刚刚';
+                } else if (diff < 24 * 60 * 60 * 1000) { // 24小时内
+                    const hours = Math.floor(diff / (60 * 60 * 1000));
+                    return `${hours}小时前`;
+                } else if (diff < 7 * 24 * 60 * 60 * 1000) { // 7天内
+                    const days = Math.floor(diff / (24 * 60 * 60 * 1000));
+                    return `${days}天前`;
+                } else {
+                    return date.toLocaleDateString('zh-CN', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric'
+                    });
+                }
+            } catch (error) {
+                return '未知时间';
+            }
+        }
+
+        // 展开/收起摘要
+        function toggleSummary(element) {
+            const summary = element.previousElementSibling;
+            if (summary.style.maxHeight && summary.style.maxHeight !== 'none') {
+                summary.style.maxHeight = 'none';
+                element.textContent = '收起摘要';
             } else {
-                return date.toLocaleDateString('zh-CN', {
-                    month: 'short',
-                    day: 'numeric'
-                });
+                summary.style.maxHeight = '150px';
+                element.textContent = '展开全文';
             }
         }
     </script>

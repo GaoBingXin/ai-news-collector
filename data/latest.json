@@ -1,38 +1,181 @@
 {
-  "date": "2026-03-10",
-  "count": 4,
+  "date": "2026-03-11",
+  "count": 15,
   "news": [
+    {
+      "title": "模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了",
+      "link": "https://www.infoq.cn/article/5q7ysFgsdBqjLuqGxGyz?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Tue, 10 Mar 2026 20:00:00 GMT",
+      "summary": "《模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了》是一篇关于人工智能技术的详细报道。报道主要关注模力工场新鲜事OpenClaw 的火爆还在持续 但与其隔着屏幕围观 不如带上电脑来现场  OpenClaw 中国行来了 模力工场倾力参与其中 就是想让每个人都能 30 分钟跑通自己的 AI 从公益装机。文章深入分析了ai 输入 GitHub 仓库链接 AI 自动扫描生成结构化项目说明书 让开发者秒懂陌生代码 告别逐行翻阅的烦恼 神笔AI Agent   杭州 企业级 AI 自动化平台 业务人员无需编程 用自然语言描述即可搭建自动化流程 已在电商 营销等... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "AI综合",
+      "contentLength": 4025,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "无需代理也能零信任：Akamai 联合英伟达推出 DPU 安全方案",
+      "link": "https://www.infoq.cn/article/m4lQlXIAK0st0siiQzgk?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Tue, 10 Mar 2026 18:15:49 GMT",
+      "summary": "《无需代理也能零信任：Akamai 联合英伟达推出 DPU 安全方案》是一篇关于人工智能技术的详细报道。报道主要关注在工业控制系统 能源网络以及交通基础设施等关键领域 网络安全一直面临一个长期存在的矛盾 系统需要保持持续稳定运行 但传统安全工具往往会对性能和稳定性产生影响 尤其是在运营技术 OT 和工业控制系统 I。该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "AI综合",
+      "contentLength": 2849,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "Cloudflare：我们如何用 OpenCode 和 Claude，在一周内重构 Next.js",
+      "link": "https://www.infoq.cn/article/2RV73l1Iyabgij0Ou3hr?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Tue, 10 Mar 2026 18:08:49 GMT",
+      "summary": "《Cloudflare：我们如何用 OpenCode 和 Claude，在一周内重构 Next.js》是一篇关于人工智能技术的详细报道。报道主要关注上周 一名工程师从零开始 用 AI 模型重构了当下最流行的前端框架 最终得到了 vinext 读作 vee-next   它可作为 Next。文章深入分析了js 的即插即用替代方案 基于 Vite 构建 仅需一条命令就能部署到 Cloudflare Workers 在初步基准测试中 生产环境应用的构建速度最高提升 4 倍 客户端打包体积最高减小 57% 目前已有客户在生产环境中正式使用 整个项... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，js 是最流行的 React 框架 拥有数百万开发者用户 支撑着互联网上相当一部分生产环境应用    这背后有着充分的理由 它拥有一流的开发者体验 但当 Next... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "Anthropic",
+      "contentLength": 7180,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "Claude 开始收“代码审核税”：一条 PR 25 美元，大厂一年或花百万，还得上交整个代码库",
+      "link": "https://www.infoq.cn/article/WFMcDd9FOLLLv3jpamv5?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Tue, 10 Mar 2026 17:46:02 GMT",
+      "summary": "《Claude 开始收“代码审核税”：一条 PR 25 美元，大厂一年或花百万，还得上交整个代码库》是一篇关于人工智能技术的详细报道。报道主要关注3 月 9 日 Anthropic 推出了一款新的代码审查产品 Code Review 主打在人工介入之前 先用 AI 自动检查 Pull Request 中的问题  这项服务面向团队和企业用户 瞄准。文章深入分析了39 美元  问题在于 这样的价格一旦放到真实的工程规模里 成本会迅速放大 网友 DanT @uyintans  就直接指出 如果一家中大型公司每天都会产生大量 Pull Request 而每个 PR 都要花 15 到 25 美元来审查 那... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，5 个问题 对于少于 50 行的小型 Pull Request 31% 会收到评论 平均 0... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "Anthropic",
+      "contentLength": 3127,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "GPT-5.4 发布：OpenAI 新模型会自己用电脑了，正面撞上 OpenClaw",
+      "link": "https://www.infoq.cn/article/orOZQwP7FExoPfwwDlJP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Tue, 10 Mar 2026 17:35:54 GMT",
+      "summary": "《GPT-5.4 发布：OpenAI 新模型会自己用电脑了，正面撞上 OpenClaw》是一篇关于人工智能技术的详细报道。报道主要关注4 发布 那个熟悉的 OpenAI 又回来了  GPT-5。文章深入分析了4 是一款新的前沿模型 把 OpenAI 过去一段时间在推理能力 GPT-5... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，3-Codex 以及原生计算机使用能力上的进展 整合到了同一个版本里  这次发布的分量很重 光是 原生电脑操作 这一点 就已经足够吸引眼球 而当它再叠加顶级的专业知识工作能力 100 万 token 的上下文窗口 以及明显提升的工具使用效率时 对所有希望用 AI 工作 与 AI 协作 或者基于 AI... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "OpenAI",
+      "contentLength": 3996,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "ABB: Physical AI simulation boosts ROI for factory automation",
+      "link": "https://www.artificialintelligence-news.com/news/abb-physical-ai-simulation-secures-factory-automation-roi/",
+      "source": "AI News (英文)",
+      "date": "Tue, 10 Mar 2026 17:22:41 +0000",
+      "summary": "A new ABB and NVIDIA partnership shows physical AI simulation is driving real ROI in factory automation and solving production hurdles. Manufacturers have often found it difficult to make intelligent robotics work reliably outside testing environments. The core issue is the gap between digital training models and actual factory floors, where lighting, material physics, and […]\nThe post ABB: Physical AI simulation boosts ROI for factory automation appeared first on AI News.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
+      "title": "Hybrid Neuro-Symbolic Fraud Detection: Guiding Neural Networks with Domain Rules",
+      "link": "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
+      "source": "Towards Data Science",
+      "date": "Tue, 10 Mar 2026 16:30:00 +0000",
+      "summary": "I really thought I was onto something big: add a couple of simple domain rules to the loss function, and watch fraud detection just skyrocket on super-imbalanced data. The first run looked amazing… until I fixed a sneaky threshold bug and ran the whole thing across five different random seeds. Suddenly the “huge win” mostly evaporated.\nThe post Hybrid Neuro-Symbolic Fraud Detection: Guiding Neural Networks with Domain Rules appeared first on Towards Data Science.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
+      "title": "OpenClaw 大更新：最值得关注的不是 GPT-5.4，而是 memory",
+      "link": "https://www.infoq.cn/article/3Edwvdt46RR8Sd1ewSkQ?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Tue, 10 Mar 2026 16:00:53 GMT",
+      "summary": "《OpenClaw 大更新：最值得关注的不是 GPT-5.4，而是 memory》是一篇关于人工智能技术的详细报道。报道主要关注最近 最火的 Agent 项目 OpenClaw 又迎来一次大更新 支持 GPT-5。文章深入分析了4 加入 Context Engine 插件接口 记忆系统可以热插拔 GitHub Star 也突破了 28 万  表面看 这次更新内容很多 搜索 插件 通信渠道 容器部署 安全机制  几乎是一次全面升级 但如果只抓一个最关键的变化 其实是... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "OpenAI",
+      "contentLength": 1102,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "OpenAI 也要 IPO 了，但这次只能争“全球第三”",
+      "link": "https://www.infoq.cn/article/WDSbYFmuBNTG1652FzXB?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Tue, 10 Mar 2026 15:45:54 GMT",
+      "summary": "《OpenAI 也要 IPO 了，但这次只能争“全球第三”》是一篇关于人工智能技术的详细报道。报道主要关注看起来 2026 年可能要变成 大模型上市年 了 MiniMax 智谱之后 国内的阶跃星辰 以及海外的 OpenAI Anthropic 也都开始认真准备 IPO 那么全球第三家上市的大模型公司 到底。文章深入分析了7 万亿美元 而在 7300 亿美元的估值水平上 OpenAI 已经进入了一个完全不同的体量级别 也反映出投资者对前沿 AI 的巨大信心  对上市这件事 OpenAI 首席执行官 Sam Altman 的表现也很神奇 他在去年 12 月接受... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "OpenAI",
+      "contentLength": 1076,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "What Are Agent Skills Beyond Claude?",
+      "link": "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
+      "source": "Towards Data Science",
+      "date": "Tue, 10 Mar 2026 13:30:00 +0000",
+      "summary": "How to design and implement agent skills for custom agents outside the Claude ecosystem\nThe post What Are Agent Skills Beyond Claude? appeared first on Towards Data Science.",
+      "category": "Anthropic",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
+      "title": "Agentic AI in finance speeds up operational automation",
+      "link": "https://www.artificialintelligence-news.com/news/agentic-ai-in-finance-speeds-up-operational-automation/",
+      "source": "AI News (英文)",
+      "date": "Tue, 10 Mar 2026 12:55:37 +0000",
+      "summary": "In finance, achieving operational automation by integrating agentic AI requires a data-centric foundation to drive real value. Financial infrastructure provider SEI has engaged IBM to modernise its internal operations via AI and automation. The joint initiative focuses on process redesign and targeted system updates to deliver consistent client experiences, building a modern and data-enabled foundation […]\nThe post Agentic AI in finance speeds up operational automation appeared first on AI News.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
+      "title": "OpenAI为龙虾紧急收购了一家23人公司",
+      "link": "https://www.qbitai.com/2026/03/385637.html",
+      "source": "量子位",
+      "date": "Tue, 10 Mar 2026 08:13:46 +0000",
+      "summary": "《OpenAI为龙虾紧急收购了一家23人公司》是一篇关于人工智能技术的详细报道。报道主要关注< img id=\"wx img\" src=\"https://www。文章深入分析了com/wp-content/uploads/imgs/qbitai-logo-1... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，png\" width=\"400\" height=\"400\"> OpenAI为龙虾紧急收购了一家23人公司 一水 2026-03-10 16:13:46 来源 量子位 23人团队两年干出8600万估值 龙虾太火 OpenAI也是动作不停   前脚刚挖来龙虾之父 后脚又立马收购了一家新公司  而且瞄准的... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "OpenAI",
+      "contentLength": 4908,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "Mastercard brings agentic payments to life in Singapore with DBS and UOB",
+      "link": "https://www.artificialintelligence-news.com/news/mastercard-agentic-payments-singapore-dbs-uob/",
+      "source": "AI News (英文)",
+      "date": "Tue, 10 Mar 2026 07:00:00 +0000",
+      "summary": "Mastercard has completed its first live, authenticated agent-based payment transaction in Singapore, a milestone that advances autonomous AI commerce from proof of concept to everyday use. Announced on March 4, 2026, the transaction was carried out in partnership with DBS and UOB, two of Southeast Asia’s largest banks. In the demonstration, an AI agent booked […]\nThe post Mastercard brings agentic payments to life in Singapore with DBS and UOB appeared first on AI News.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
     {
       "title": "Meta亚历山大王走人？小扎回应了",
       "link": "https://www.qbitai.com/2026/03/385127.html",
       "source": "量子位",
       "date": "Tue, 10 Mar 2026 05:23:30 +0000",
-      "summary": "刚满29岁的Meta AI一号位...",
-      "category": "AI综合"
+      "summary": "《Meta亚历山大王走人？小扎回应了》是一篇关于人工智能技术的详细报道。报道主要关注< img id=\"wx img\" src=\"https://www。文章深入分析了com/wp-content/uploads/imgs/qbitai-logo-1... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，png\" width=\"400\" height=\"400\"> Meta亚历山大王走人 小扎回应了 henry 2026-03-10 13:23:30 来源 量子位 刚满29岁的Meta AI一号位 henry 发自 凹非寺 量子位 | 公众号 QbitAI 亚历山大王  Alexandr Wang ... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "AI综合",
+      "contentLength": 5059,
+      "language": "zh",
+      "hasFullContent": true
     },
     {
-      "title": "首个物理AI数据基座平台“无垠”落户浙江，专治机器人数据荒，家庭工业商业场景全覆盖",
-      "link": "https://www.qbitai.com/2026/03/385066.html",
-      "source": "量子位",
-      "date": "Mon, 09 Mar 2026 10:46:27 +0000",
-      "summary": "打通训练到商业化落地...",
-      "category": "AI综合"
-    },
-    {
-      "title": "打败GPT-5.2，嵌入真实工业生产，这个大模型什么来头？",
-      "link": "https://www.qbitai.com/2026/03/385010.html",
-      "source": "量子位",
-      "date": "Mon, 09 Mar 2026 08:14:22 +0000",
-      "summary": "...",
-      "category": "OpenAI"
-    },
-    {
-      "title": "“最美PM”宋紫薇获红杉蚂蚁投资，创业方向略有调整，转向AI护肤",
-      "link": "https://www.qbitai.com/2026/03/384926.html",
-      "source": "量子位",
-      "date": "Mon, 09 Mar 2026 06:21:16 +0000",
-      "summary": "暂避大厂锋芒...",
-      "category": "AI综合"
+      "title": "I Stole a Wall Street Trick to Solve a Google Trends Data Problem",
+      "link": "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
+      "source": "Towards Data Science",
+      "date": "Mon, 09 Mar 2026 19:08:20 +0000",
+      "summary": "A methodology for comparing Google Trends data across countries. \nThe post I Stole a Wall Street Trick to Solve a Google Trends Data Problem appeared first on Towards Data Science.",
+      "category": "Google",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
     }
-  ]
+  ],
+  "sources": [
+    "量子位",
+    "InfoQ AI",
+    "ArXiv AI",
+    "Towards Data Science",
+    "MIT News AI",
+    "Analytics Vidhya",
+    "AI News (英文)"
+  ],
+  "generatedAt": "2026-03-11T01:52:49.493Z"
 }
