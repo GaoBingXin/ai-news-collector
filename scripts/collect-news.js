@@ -101,17 +101,18 @@ async function collectNews() {
   const today = format(new Date(), 'yyyy-MM-dd');
   const filename = path.join(dataDir, `news-${today}.json`);
   
+  // 保存当天完整数据
   await fs.writeFile(filename, JSON.stringify({
     date: today,
     count: news.length,
     news: news
   }, null, 2));
 
-  // 更新最新数据文件
+  // 更新latest.json，保留当天完整数据（不限制数量）
   await fs.writeFile(path.join(dataDir, 'latest.json'), JSON.stringify({
     date: today,
     count: news.length,
-    news: news.slice(0, 10) // 只保存最新的10条用于首页
+    news: news
   }, null, 2));
 
   console.log(`采集完成！共收集 ${news.length} 条AI资讯`);
@@ -138,7 +139,7 @@ function detectCategory(text) {
     return '图像生成';
   }
   if (textLower.includes('语言模型') || textLower.includes('llm') || textLower.includes('大模型')) {
-    return '语言模型';
+    return '大模型';
   }
   if (textLower.includes('研究') || textLower.includes('论文') || textLower.includes('学术')) {
     return '研究进展';
