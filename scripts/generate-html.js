@@ -39,7 +39,7 @@ async function getAvailableDates() {
         .filter(f => f.match(/^news-\d{4}-\d{2}-\d{2}\.json$/))
         .map(f => f.replace('news-', '').replace('.json', ''))
         .sort()
-        .reverse();
+        
     return dates;
 }
 
