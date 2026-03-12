@@ -1,7 +1,95 @@
 {
-  "date": "2026-03-11",
+  "date": "2026-03-12",
   "count": 15,
   "news": [
+    {
+      "title": "3 Questions: On the future of AI and the mathematical and physical sciences",
+      "link": "https://news.mit.edu/2026/3-questions-future-of-ai-and-mathematical-physical-sciences-0311",
+      "source": "MIT News AI",
+      "date": "Wed, 11 Mar 2026 18:30:00 -0400",
+      "summary": "\"3 Questions: On the future of AI and the mathematical and physical sciences\" is an in-depth report on artificial intelligence technology. The article focuses on Professor Jesse Thaler describes a vision for a two-way bridge between artificial intelligence and t. It provides detailed analysis of  Laboratory for Nuclear Science Publication Date: March 11, 2026 Press Inquiries Press Contact: Scott Morley Email: morl... This report offers comprehensive insights into AI technology trends, applications, and future impact. Technical details include edu Phone: 617-253-4852 Laboratory for Nuclear Science Close Caption: Scientists in the mathematical and physical sciences have been strategizing abou... Highly recommended for AI/ML professionals and enthusiasts.",
+      "category": "AI综合",
+      "contentLength": 8807,
+      "language": "en",
+      "hasFullContent": true
+    },
+    {
+      "title": "强强联合：借助 Snowflake 与 Amazon Quick，释放 AI 驱动的商业智能潜能 ｜ 技术实践",
+      "link": "https://www.infoq.cn/article/O24ZOD9jtmX2cowCeWWV?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Wed, 11 Mar 2026 20:06:53 GMT",
+      "summary": "《强强联合：借助 Snowflake 与 Amazon Quick，释放 AI 驱动的商业智能潜能 ｜ 技术实践》是一篇关于人工智能技术的详细报道。报道主要关注2026 年 智能体将在企业级应用中取得哪些实质性突破 点击下载 2026 年 AI 与数据发展预测 白皮书 获悉专家一手前瞻 抢先拥抱新的工作方式 Snowflake 是一个完全托管的 Data &。文章深入分析了ipynb 笔记本文件 Snowflake 笔记本预装了用于数据科学和机器学习的常见 Python 库 例如 numpy pandas matplotlib 等 如果您需要使用其他软件包 可以点击右上角的 \"Packages\" 软件包 下拉... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "AI综合",
+      "contentLength": 6798,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "黄仁勋砸千亿兆瓦算力，押注下一个“Open AI”",
+      "link": "https://www.infoq.cn/article/tMAPqeVAGN4q4vIsqNbP?utm_source=rss&utm_medium=article",
+      "source": "InfoQ AI",
+      "date": "Wed, 11 Mar 2026 18:08:44 GMT",
+      "summary": "《黄仁勋砸千亿兆瓦算力，押注下一个“Open AI”》是一篇关于人工智能技术的详细报道。报道主要关注一个还没拿出惊艳产品的初创公司 竟然接到了英伟达送来的  泼天算力  这一次 英伟达把投资触角伸向了这家还名不见经传的  新 AI 实验室  3 月 10 日 前 OpenAI 高管 Mira Mur。该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
+      "category": "AI综合",
+      "contentLength": 4320,
+      "language": "zh",
+      "hasFullContent": true
+    },
+    {
+      "title": "Ai2: Building physical AI with virtual simulation data",
+      "link": "https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/",
+      "source": "AI News (英文)",
+      "date": "Wed, 11 Mar 2026 16:50:56 +0000",
+      "summary": "Virtual simulation data is driving the development of physical AI across corporate environments, led by initiatives like Ai2’s MolmoBot. Instructing hardware to interact with the real world has historically relied on highly expensive and manually-collected demonstrations. Technology providers building generalist manipulation agents typically frame extensive real-world training as the basis for these systems. For some […]\nThe post Ai2: Building physical AI with virtual simulation data appeared first on AI News.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
+      "title": "An Intuitive Guide to MCMC (Part I): The Metropolis-Hastings Algorithm",
+      "link": "https://towardsdatascience.com/an-intuitive-guide-to-mcmc-part-i-the-metropolis-hastings-algorithm/",
+      "source": "Towards Data Science",
+      "date": "Wed, 11 Mar 2026 16:30:00 +0000",
+      "summary": "Tired of the AI hype? Let's talk about the probabilistic algorithms actually driving high-end quantitative finance.\nThe post An Intuitive Guide to MCMC (Part I): The Metropolis-Hastings Algorithm appeared first on Towards Data Science.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
+      "title": "New MIT class uses anthropology to improve chatbots",
+      "link": "https://news.mit.edu/2026/mit-class-uses-anthropology-to-improve-chatbots-0311",
+      "source": "MIT News AI",
+      "date": "Wed, 11 Mar 2026 12:10:00 -0400",
+      "summary": "\"New MIT class uses anthropology to improve chatbots\" is an in-depth report on artificial intelligence technology. The article focuses on MIT computer science students design AI chatbots to help young users become more social, and sociall. It provides detailed analysis of  Denise Brehm | MIT Morningside Academy for Design Publication Date: March 11, 2026 Press Inquiries Press Contact: Adela... This report offers comprehensive insights into AI technology trends, applications, and future impact. Technical details include edu MIT Morningside Academy for Design Close Caption: Senior Mohammed Ihtisham (second from right) explains Project Reflecto to MIT professor of compu... Highly recommended for AI/ML professionals and enthusiasts.",
+      "category": "AI综合",
+      "contentLength": 11714,
+      "language": "en",
+      "hasFullContent": true
+    },
+    {
+      "title": "Spectral Clustering Explained: How Eigenvectors Reveal Complex Cluster Structures",
+      "link": "https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/",
+      "source": "Towards Data Science",
+      "date": "Wed, 11 Mar 2026 15:00:00 +0000",
+      "summary": "Understanding why spectral clustering outperforms K-means\nThe post Spectral Clustering Explained: How Eigenvectors Reveal Complex Cluster Structures appeared first on Towards Data Science.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
+      "title": "New partnership to offer smart robots for dangerous environments",
+      "link": "https://www.artificialintelligence-news.com/news/new-partnership-to-offer-ai-for-robotics-for-work-in-dangerous-environments/",
+      "source": "AI News (英文)",
+      "date": "Wed, 11 Mar 2026 11:42:00 +0000",
+      "summary": "ADLINK Technology has signed a strategic alliance and joint development agreement with Under Control Robotics, the company behind the robotics startup Noble Machines. The two firms will combine ADLINK’s edge AI platforms with Noble Machines’ autonomy software to create a new generation of general-purpose robots for modern manufactories and engineering plants. The work focuses on […]\nThe post New partnership to offer smart robots for dangerous environments appeared first on AI News.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
     {
       "title": "OpenAI完成1100亿美元融资，亚马逊成为Frontier独家第三方云分销商",
       "link": "https://www.infoq.cn/article/y688Ya2AFzphbj3b3CfR?utm_source=rss&utm_medium=article",
@@ -25,6 +113,17 @@
       "hasFullContent": true
     },
     {
+      "title": "Manulife moves AI agents into core financial workflows",
+      "link": "https://www.artificialintelligence-news.com/news/manulife-moves-ai-agents-into-core-financial-workflows/",
+      "source": "AI News (英文)",
+      "date": "Wed, 11 Mar 2026 10:00:00 +0000",
+      "summary": "Large financial firms have spent years testing artificial intelligence in small projects, often limited to data analysis or customer support tools. The next phase appears to involve something more operational: systems that can take action in business workflows. Canadian insurer Manulife is moving in that direction as it works to deploy agent-based AI systems inside […]\nThe post Manulife moves AI agents into core financial workflows appeared first on AI News.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
+    },
+    {
       "title": "Anthropic工程师都离不开！深夜随手撸出的开源神器，被OpenAl高价收购，23人创业逆袭",
       "link": "https://www.infoq.cn/article/a6GdY75EJ4PmCadmXxyY?utm_source=rss&utm_medium=article",
       "source": "InfoQ AI",
@@ -34,6 +133,17 @@
       "contentLength": 3123,
       "language": "zh",
       "hasFullContent": true
+    },
+    {
+      "title": "How physical AI integration accelerates vehicle innovation",
+      "link": "https://www.artificialintelligence-news.com/news/how-physical-ai-integration-accelerates-vehicle-innovation/",
+      "source": "AI News (英文)",
+      "date": "Wed, 11 Mar 2026 09:52:15 +0000",
+      "summary": "The integration of physical AI into vehicles remains a primary objective for automakers looking to accelerate innovation. A technical collaboration between Qualcomm and Wayve offers a framework for how hardware and software providers can consolidate their efforts to supply production-ready advanced driver assistance systems to manufacturers worldwide. The partnership combines Wayve’s AI driving layer with […]\nThe post How physical AI integration accelerates vehicle innovation appeared first on AI News.",
+      "category": "AI综合",
+      "contentLength": 0,
+      "language": "en",
+      "hasFullContent": false
     },
     {
       "title": "ChatGPT和Claude争了个寂寞！用户重叠仅11%，中国应用霸榜移动端",
@@ -47,125 +157,15 @@
       "hasFullContent": true
     },
     {
-      "title": "模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了",
-      "link": "https://www.infoq.cn/article/5q7ysFgsdBqjLuqGxGyz?utm_source=rss&utm_medium=article",
-      "source": "InfoQ AI",
-      "date": "Tue, 10 Mar 2026 20:00:00 GMT",
-      "summary": "《模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了》是一篇关于人工智能技术的详细报道。报道主要关注模力工场新鲜事OpenClaw 的火爆还在持续 但与其隔着屏幕围观 不如带上电脑来现场  OpenClaw 中国行来了 模力工场倾力参与其中 就是想让每个人都能 30 分钟跑通自己的 AI 从公益装机。文章深入分析了ai 输入 GitHub 仓库链接 AI 自动扫描生成结构化项目说明书 让开发者秒懂陌生代码 告别逐行翻阅的烦恼 神笔AI Agent   杭州 企业级 AI 自动化平台 业务人员无需编程 用自然语言描述即可搭建自动化流程 已在电商 营销等... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
-      "category": "AI综合",
-      "contentLength": 4025,
-      "language": "zh",
+      "title": "MASEval: Extending Multi-Agent Evaluation from Models to Systems",
+      "link": "https://arxiv.org/abs/2603.08835",
+      "source": "ArXiv AI",
+      "date": "Wed, 11 Mar 2026 00:00:00 -0400",
+      "summary": "\"MASEval: Extending Multi-Agent Evaluation from Models to Systems\" is an in-depth report on artificial intelligence technology. The article focuses on Computer Science > Artificial Intelligence arXiv:2603. It provides detailed analysis of 08835 (cs) [Submitted on 9 Mar 2026] Title:MASEval: Extending Multi-Agent Evaluation from Models to Systems Authors:Corn... This report offers comprehensive insights into AI technology trends, applications, and future impact. Technical details include  Yet existing benchmarks are model-centric: they fix the agentic setup and do not compare other system components... Highly recommended for AI/ML professionals and enthusiasts.",
+      "category": "语言模型",
+      "contentLength": 4004,
+      "language": "en",
       "hasFullContent": true
-    },
-    {
-      "title": "ABB: Physical AI simulation boosts ROI for factory automation",
-      "link": "https://www.artificialintelligence-news.com/news/abb-physical-ai-simulation-secures-factory-automation-roi/",
-      "source": "AI News (英文)",
-      "date": "Tue, 10 Mar 2026 17:22:41 +0000",
-      "summary": "A new ABB and NVIDIA partnership shows physical AI simulation is driving real ROI in factory automation and solving production hurdles. Manufacturers have often found it difficult to make intelligent robotics work reliably outside testing environments. The core issue is the gap between digital training models and actual factory floors, where lighting, material physics, and […]\nThe post ABB: Physical AI simulation boosts ROI for factory automation appeared first on AI News.",
-      "category": "AI综合",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "Hybrid Neuro-Symbolic Fraud Detection: Guiding Neural Networks with Domain Rules",
-      "link": "https://towardsdatascience.com/hybrid-neuro-symbolic-fraud-detection-guiding-neural-networks-with-domain-rules/",
-      "source": "Towards Data Science",
-      "date": "Tue, 10 Mar 2026 16:30:00 +0000",
-      "summary": "I really thought I was onto something big: add a couple of simple domain rules to the loss function, and watch fraud detection just skyrocket on super-imbalanced data. The first run looked amazing… until I fixed a sneaky threshold bug and ran the whole thing across five different random seeds. Suddenly the “huge win” mostly evaporated.\nThe post Hybrid Neuro-Symbolic Fraud Detection: Guiding Neural Networks with Domain Rules appeared first on Towards Data Science.",
-      "category": "AI综合",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "What Are Agent Skills Beyond Claude?",
-      "link": "https://towardsdatascience.com/what-is-agent-skills-beyond-claude/",
-      "source": "Towards Data Science",
-      "date": "Tue, 10 Mar 2026 13:30:00 +0000",
-      "summary": "How to design and implement agent skills for custom agents outside the Claude ecosystem\nThe post What Are Agent Skills Beyond Claude? appeared first on Towards Data Science.",
-      "category": "Anthropic",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "Agentic AI in finance speeds up operational automation",
-      "link": "https://www.artificialintelligence-news.com/news/agentic-ai-in-finance-speeds-up-operational-automation/",
-      "source": "AI News (英文)",
-      "date": "Tue, 10 Mar 2026 12:55:37 +0000",
-      "summary": "In finance, achieving operational automation by integrating agentic AI requires a data-centric foundation to drive real value. Financial infrastructure provider SEI has engaged IBM to modernise its internal operations via AI and automation. The joint initiative focuses on process redesign and targeted system updates to deliver consistent client experiences, building a modern and data-enabled foundation […]\nThe post Agentic AI in finance speeds up operational automation appeared first on AI News.",
-      "category": "AI综合",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "OpenAI为龙虾紧急收购了一家23人公司",
-      "link": "https://www.qbitai.com/2026/03/385637.html",
-      "source": "量子位",
-      "date": "Tue, 10 Mar 2026 08:13:46 +0000",
-      "summary": "《OpenAI为龙虾紧急收购了一家23人公司》是一篇关于人工智能技术的详细报道。报道主要关注< img id=\"wx img\" src=\"https://www。文章深入分析了com/wp-content/uploads/imgs/qbitai-logo-1... 该报道对AI技术的发展趋势、应用场景和未来影响进行了全面探讨。技术细节方面，png\" width=\"400\" height=\"400\"> OpenAI为龙虾紧急收购了一家23人公司 一水 2026-03-10 16:13:46 来源 量子位 23人团队两年干出8600万估值 龙虾太火 OpenAI也是动作不停   前脚刚挖来龙虾之父 后脚又立马收购了一家新公司  而且瞄准的... 对于关注人工智能、机器学习的技术从业者和爱好者来说，这是一篇值得深入阅读的报道。",
-      "category": "OpenAI",
-      "contentLength": 4946,
-      "language": "zh",
-      "hasFullContent": true
-    },
-    {
-      "title": "Mastercard brings agentic payments to life in Singapore with DBS and UOB",
-      "link": "https://www.artificialintelligence-news.com/news/mastercard-agentic-payments-singapore-dbs-uob/",
-      "source": "AI News (英文)",
-      "date": "Tue, 10 Mar 2026 07:00:00 +0000",
-      "summary": "Mastercard has completed its first live, authenticated agent-based payment transaction in Singapore, a milestone that advances autonomous AI commerce from proof of concept to everyday use. Announced on March 4, 2026, the transaction was carried out in partnership with DBS and UOB, two of Southeast Asia’s largest banks. In the demonstration, an AI agent booked […]\nThe post Mastercard brings agentic payments to life in Singapore with DBS and UOB appeared first on AI News.",
-      "category": "AI综合",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "I Stole a Wall Street Trick to Solve a Google Trends Data Problem",
-      "link": "https://towardsdatascience.com/i-stole-a-wall-street-trick-to-solve-a-google-trends-data-problem-2/",
-      "source": "Towards Data Science",
-      "date": "Mon, 09 Mar 2026 19:08:20 +0000",
-      "summary": "A methodology for comparing Google Trends data across countries. \nThe post I Stole a Wall Street Trick to Solve a Google Trends Data Problem appeared first on Towards Data Science.",
-      "category": "Google",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "Why Your AI Search Evaluation Is Probably Wrong (And How to Fix It)",
-      "link": "https://towardsdatascience.com/why-your-ai-search-evaluation-is-probably-wrong-and-how-to-fix-it/",
-      "source": "Towards Data Science",
-      "date": "Mon, 09 Mar 2026 13:30:00 +0000",
-      "summary": "A five-step framework for building rigorous, reproducible AI search benchmarks — before you make six-figure infrastructure decisions \nThe post Why Your AI Search Evaluation Is Probably Wrong (And How to Fix It) appeared first on Towards Data Science.",
-      "category": "AI综合",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "AI insurance underwriting is past the pitch deck—Gradient AI just got the capital to prove it",
-      "link": "https://www.artificialintelligence-news.com/news/gradient-ai-cibc-ai-insurance-underwriting-growth-capital/",
-      "source": "AI News (英文)",
-      "date": "Mon, 09 Mar 2026 12:51:00 +0000",
-      "summary": "AI insurance underwriting has been called the next frontier of insurtech for years. The difference now is that the money backing it has moved from venture bets into institutional conviction. On March 3, Boston-based Gradient AI securedgrowth capital financing from CIBC Innovation Banking, a lender with over 25 years of experience backing growth-stage technology companies and […]\nThe post AI insurance underwriting is past the pitch deck—Gradient AI just got the capital to prove it appeared first on AI News.",
-      "category": "AI综合",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
-    },
-    {
-      "title": "UK sovereign AI fund to build up domestic computing infrastructure",
-      "link": "https://www.artificialintelligence-news.com/news/uk-sovereign-ai-fund-build-domestic-computing-infrastructure/",
-      "source": "AI News (英文)",
-      "date": "Mon, 09 Mar 2026 12:46:13 +0000",
-      "summary": "The UK sovereign AI fund intends to secure advantages by providing a domestic alternative to external computing infrastructure. Backed by a £500 million budget from the Department for Science, Innovation and Technology, the unit formally launches on April 16th at 6pm GMT. James Wise, Partner at Balderton Capital, chairs the function to coordinate efforts across […]\nThe post UK sovereign AI fund to build up domestic computing infrastructure appeared first on AI News.",
-      "category": "AI综合",
-      "contentLength": 0,
-      "language": "en",
-      "hasFullContent": false
     }
   ],
   "sources": [
@@ -177,5 +177,5 @@
     "Analytics Vidhya",
     "AI News (英文)"
   ],
-  "generatedAt": "2026-03-11T09:42:34.624Z"
+  "generatedAt": "2026-03-12T00:02:27.955Z"
 }
