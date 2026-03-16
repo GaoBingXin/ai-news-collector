@@ -1,45 +1,53 @@
 {
   "date": "2026-03-16",
-  "count": 71,
+  "count": 70,
   "sourceCount": 15,
   "news": [
     {
       "title": "今夜，大模型从世界消散",
       "link": "https://sspai.com/post/106939",
       "source": "少数派",
-      "date": "2026-03-16T09:14:43.786Z",
+      "date": "2026-03-16T09:31:49.852Z",
       "summary": "",
       "category": "大模型"
+    },
+    {
+      "title": "全村人都在等着DeepSeek上桌吃饭了",
+      "link": "https://www.huxiu.com/article/4838602.html",
+      "source": "虎嗅",
+      "date": "2026-03-16T09:31:47.887Z",
+      "summary": "",
+      "category": "国产大模型"
     },
     {
       "title": "AI“投毒”曝光背后，凡事听AI的我们还“自由”吗？",
       "link": "https://www.huxiu.com/article/4842462.html",
       "source": "虎嗅",
-      "date": "2026-03-16T09:14:41.676Z",
+      "date": "2026-03-16T09:31:47.886Z",
       "summary": "",
       "category": "AI综合"
     },
     {
-      "title": "给AI投毒，年入29亿：315没告诉你的那门生意",
-      "link": "https://www.huxiu.com/article/4842454.html",
-      "source": "虎嗅",
-      "date": "2026-03-16T09:14:41.676Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "当8家顶级AI集体“说谎”：谁在给大模型投毒，谁又在装睡？",
-      "link": "https://www.huxiu.com/article/4842391.html",
-      "source": "虎嗅",
-      "date": "2026-03-16T09:14:41.676Z",
+      "title": "滴普科技发布全新升级的Deepexi企业大模型，用282个Skills打造企业AI员工",
+      "link": "https://www.36kr.com/p/3725340839819653",
+      "source": "36Kr-AI",
+      "date": "2026-03-16T09:31:47.456Z",
       "summary": "",
       "category": "大模型"
+    },
+    {
+      "title": "企业AI的拐点时刻。",
+      "link": "https://www.36kr.com/p/3725340839819653",
+      "source": "36Kr-AI",
+      "date": "2026-03-16T09:31:47.456Z",
+      "summary": "",
+      "category": "AI综合"
     },
     {
       "title": "智谱推出首个龙虾大模型，API价格同步涨20%",
       "link": "https://www.36kr.com/p/3725280830404997",
       "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
+      "date": "2026-03-16T09:31:47.456Z",
       "summary": "",
       "category": "大模型"
     },
@@ -47,7 +55,7 @@
       "title": "MIT新研究：大模型加噪声就能替代GRPO/PPO调参",
       "link": "https://www.36kr.com/p/3725251983260034",
       "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
+      "date": "2026-03-16T09:31:47.456Z",
       "summary": "",
       "category": "大模型"
     },
@@ -55,7 +63,7 @@
       "title": "预训练模型里早就藏好一堆专家",
       "link": "https://www.36kr.com/p/3725251983260034",
       "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
+      "date": "2026-03-16T09:31:47.456Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -63,7 +71,7 @@
       "title": "Agent 越流行，CPU 的总需求就越高",
       "link": "https://www.36kr.com/p/3725251689298309",
       "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
+      "date": "2026-03-16T09:31:47.456Z",
       "summary": "",
       "category": "AI Agent"
     },
@@ -71,7 +79,7 @@
       "title": "补齐AI板块核心拼图，网络基建「卖铲人」飞速创新登陆港交所",
       "link": "https://www.36kr.com/p/3725233182062982",
       "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
+      "date": "2026-03-16T09:31:47.456Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -79,23 +87,7 @@
       "title": "飞速创新顺利通过港交所聆讯，为火热的AI板块补齐了至关重要的“网络基建”拼图。",
       "link": "https://www.36kr.com/p/3725233182062982",
       "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "AI战争机器Palantir创始人彼得·蒂尔，今日举办绝密集会，反AI监管",
-      "link": "https://www.36kr.com/p/3725081818773893",
-      "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "清华团队悄悄开源了一只「教学龙虾」：国内首个L4级AI课堂来了",
-      "link": "https://www.36kr.com/p/3725086033590916",
-      "source": "36Kr-AI",
-      "date": "2026-03-16T09:14:41.163Z",
+      "date": "2026-03-16T09:31:47.456Z",
       "summary": "",
       "category": "AI综合"
     },
