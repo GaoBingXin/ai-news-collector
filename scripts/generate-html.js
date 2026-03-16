@@ -1,6 +1,5 @@
 const fs = require('fs').promises;
 const path = require('path');
-const { format } = require('date-fns');
 
 async function generateHTML() {
   console.log('开始生成HTML页面...');
@@ -20,12 +19,13 @@ async function generateHTML() {
     .sort()
     .reverse();
   
-  // 过滤：标题以中文开头的资讯（允许包含英文）
-  const isMainlyChinese = (str) => /^[\u4e00-\u9fa5]/.test(str);
+  // 过滤：标题中文字符超过30%视为中文资讯（允许包含英文）
+  const isMainlyChinese = (str) => {
+    const chineseChars = (str.match(/[\u4e00-\u9fa5]/g) || []).length;
+    return chineseChars >= 3 && chineseChars / str.length > 0.3;
+  };
   
   const filterChinese = (news) => news.filter(item => isMainlyChinese(item.title));
-  
-  const filteredNews = filterChinese(latestData.news);
   
   // 按日期组织数据
   const allData = {};
@@ -43,13 +43,13 @@ async function generateHTML() {
   }
   
   // 生成HTML
-  const html = generateHTMLContent(allData, allDates, filteredNews);
+  const html = generateHTMLContent(allData, allDates);
   
   await fs.writeFile(path.join(publicDir, 'index.html'), html);
   console.log('HTML生成完成！');
 }
 
-function generateHTMLContent(allData, dates, todayNews) {
+function generateHTMLContent(allData, dates) {
   const allDataJson = JSON.stringify(allData).replace(/</g, '\\u003c').replace(/>/g, '\\u003e');
   
   return `<!DOCTYPE html>
@@ -58,7 +58,7 @@ function generateHTMLContent(allData, dates, todayNews) {
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI热点资讯日报</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100%100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; color: #333; }
@@ -159,7 +159,6 @@ function updateDisplay(dateStr) {
   document.title = "AI热点资讯日报 - " + new Date(dateStr + "T00:00:00").toLocaleDateString("zh-CN", {year:"numeric", month:"long", day:"numeric"});
 }
 
-// 初始化日期选择器
 const dateSelect = document.getElementById("dateSelect");
 dates.forEach(d => {
   const opt = document.createElement("option");
