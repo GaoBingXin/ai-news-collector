@@ -20,10 +20,10 @@ async function generateHTML() {
     .sort()
     .reverse();
   
-  // 过滤只保留中文标题的资讯
-  const isChinese = (str) => /[\u4e00-\u9fa5]/.test(str);
+  // 过滤：标题以中文开头的资讯（允许包含英文）
+  const isMainlyChinese = (str) => /^[\u4e00-\u9fa5]/.test(str);
   
-  const filterChinese = (news) => news.filter(item => isChinese(item.title));
+  const filterChinese = (news) => news.filter(item => isMainlyChinese(item.title));
   
   const filteredNews = filterChinese(latestData.news);
   
