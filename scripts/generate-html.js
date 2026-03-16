@@ -19,13 +19,13 @@ async function generateHTML() {
     .sort()
     .reverse();
   
-  // 过滤：标题中文字符超过30%视为中文资讯（允许包含英文）
-  const isMainlyChinese = (str) => {
+  // 过滤：只要包含至少3个中文字符就保留（不是纯英文即可）
+  const hasChinese = (str) => {
     const chineseChars = (str.match(/[\u4e00-\u9fa5]/g) || []).length;
-    return chineseChars >= 3 && chineseChars / str.length > 0.3;
+    return chineseChars >= 3;
   };
   
-  const filterChinese = (news) => news.filter(item => isMainlyChinese(item.title));
+  const filterChinese = (news) => news.filter(item => hasChinese(item.title));
   
   // 按日期组织数据
   const allData = {};
