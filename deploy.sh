@@ -9,8 +9,11 @@ if ! command -v vercel &> /dev/null; then
   npm install -g vercel
 fi
 
-# 部署到Vercel（需要设置环境变量 VERCEL_TOKEN）
+# 设置环境变量
+export VERCEL_TOKEN="vcp_02wC5OyXJgW05hHayuBQAR6GV8itxaZm6TSTNdbOYu0FblBBXV3XcGnl"
+
+# 部署到Vercel
 echo "正在部署..."
-npx vercel --prod --yes
+vercel --prod --token="vcp_02wC5OyXJgW05hHayuBQAR6GV8itxaZm6TSTNdbOYu0FblBBXV3XcGnl" --yes
 
 echo "✅ 部署完成！"

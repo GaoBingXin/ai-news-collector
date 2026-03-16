@@ -48,7 +48,7 @@ async function generateHTML() {
     
     const dataDir = path.join(__dirname, '../data');
     const dates = await getAvailableDates();
-    const today = dates.length > 0 ? dates[0] : format(new Date(), 'yyyy-MM-dd');
+    const today = dates.length > 0 ? dates[dates.length - 1] : format(new Date(), 'yyyy-MM-dd');
     
     // 读取所有日期的数据
     const allData = {};
