@@ -19,24 +19,12 @@ async function generateHTML() {
     .sort()
     .reverse();
   
-  // 过滤：只要包含至少3个中文字符就保留（不是纯英文即可）
-  const hasChinese = (str) => {
-    const chineseChars = (str.match(/[\u4e00-\u9fa5]/g) || []).length;
-    return chineseChars >= 3;
-  };
-  
-  const filterChinese = (news) => news.filter(item => hasChinese(item.title));
-  
-  // 按日期组织数据
+  // 不过滤，显示所有资讯
   const allData = {};
   for (const date of allDates) {
     try {
       const data = JSON.parse(await fs.readFile(path.join(dataDir, `news-${date}.json`), 'utf-8'));
-      allData[date] = {
-        ...data,
-        news: filterChinese(data.news)
-      };
-      allData[date].count = allData[date].news.length;
+      allData[date] = data;
     } catch (e) {
       console.log(`读取 ${date} 失败:`, e.message);
     }
