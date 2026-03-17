@@ -19,12 +19,25 @@ async function generateHTML() {
     .sort()
     .reverse();
   
-  // 不过滤，显示所有资讯
+  // 过滤：只过滤纯英文（0个中文字符）
+  const filterPureEnglish = (news) => {
+    return news.filter(item => {
+      const chineseChars = (item.title.match(/[\u4e00-\u9fa5]/g) || []).length;
+      return chineseChars > 0;  // 只要有至少1个中文字符就保留
+    });
+  };
+  
+  // 按日期组织数据
   const allData = {};
   for (const date of allDates) {
     try {
       const data = JSON.parse(await fs.readFile(path.join(dataDir, `news-${date}.json`), 'utf-8'));
-      allData[date] = data;
+      const filtered = filterPureEnglish(data.news);
+      allData[date] = {
+        ...data,
+        count: filtered.length,
+        news: filtered
+      };
     } catch (e) {
       console.log(`读取 ${date} 失败:`, e.message);
     }
