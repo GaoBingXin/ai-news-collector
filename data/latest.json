@@ -1,53 +1,29 @@
 {
   "date": "2026-03-19",
-  "count": 80,
+  "count": 59,
   "sourceCount": 15,
   "news": [
-    {
-      "title": "打造我的「智能家」：使用 Claude Code 轻松使用 Home Assistant",
-      "link": "https://sspai.com/post/106992",
-      "source": "少数派",
-      "date": "2026-03-19T03:18:13.980Z",
-      "summary": "",
-      "category": "Anthropic"
-    },
-    {
-      "title": "社区速递 133 | 派友热议 AI Coding 方案、西圣 Pencil X 平替笔体验",
-      "link": "https://sspai.com/post/107466",
-      "source": "少数派",
-      "date": "2026-03-19T03:18:13.980Z",
-      "summary": "",
-      "category": "AI综合"
-    },
     {
       "title": "年度征文｜效率杂谈：告别纸笔拓荒，怎么用 AI 来辅助学习？",
       "link": "https://sspai.com/post/106878",
       "source": "少数派",
-      "date": "2026-03-19T03:18:13.979Z",
+      "date": "2026-03-19T03:27:42.699Z",
       "summary": "",
       "category": "AI综合"
+    },
+    {
+      "title": "打造我的「智能家」：使用 Claude Code 轻松使用 Home Assistant",
+      "link": "https://sspai.com/post/106992",
+      "source": "少数派",
+      "date": "2026-03-19T03:27:42.699Z",
+      "summary": "",
+      "category": "Anthropic"
     },
     {
       "title": "腾讯「龙虾」QClaw体验：AI能连微信干活了，但整体还很粗糙",
       "link": "https://www.leikeji.com/article/75505",
       "source": "雷科技",
-      "date": "2026-03-19T03:18:13.100Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "阿里钉钉丢AI王炸！“企业龙虾”悟空现场实测：体验有点震撼",
-      "link": "https://www.leikeji.com/article/75478",
-      "source": "雷科技",
-      "date": "2026-03-19T03:18:13.100Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "过去因为相信所以看见的那个 token，现在不用相信就能看见",
-      "link": "https://www.huxiu.com/article/4843388.html",
-      "source": "虎嗅",
-      "date": "2026-03-19T03:18:11.843Z",
+      "date": "2026-03-19T03:27:41.823Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -55,7 +31,7 @@
       "title": "驯服“龙虾”，Agent也要服从基本法",
       "link": "https://www.huxiu.com/article/4837843.html",
       "source": "虎嗅",
-      "date": "2026-03-19T03:18:11.843Z",
+      "date": "2026-03-19T03:27:40.351Z",
       "summary": "",
       "category": "AI Agent"
     },
@@ -63,7 +39,7 @@
       "title": "别再做时间的朋友了，AI时代“空间”才是你致富的朋友",
       "link": "https://www.huxiu.com/article/4843371.html",
       "source": "虎嗅",
-      "date": "2026-03-19T03:18:11.843Z",
+      "date": "2026-03-19T03:27:40.351Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -71,7 +47,7 @@
       "title": "AI时代个体的竞争优势，根本不在于拥有什么能力",
       "link": "https://www.huxiu.com/article/4842644.html",
       "source": "虎嗅",
-      "date": "2026-03-19T03:18:11.843Z",
+      "date": "2026-03-19T03:27:40.351Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -79,7 +55,7 @@
       "title": "终局循环：AI越繁荣，普通人的价值越廉价",
       "link": "https://www.huxiu.com/article/4842633.html",
       "source": "虎嗅",
-      "date": "2026-03-19T03:18:11.843Z",
+      "date": "2026-03-19T03:27:40.351Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -87,7 +63,7 @@
       "title": "AI正在替代研究员",
       "link": "https://www.huxiu.com/article/4842845.html",
       "source": "虎嗅",
-      "date": "2026-03-19T03:18:11.843Z",
+      "date": "2026-03-19T03:27:40.351Z",
       "summary": "",
       "category": "研究"
     },
@@ -95,55 +71,15 @@
       "title": "AI，正在吞噬所有软件",
       "link": "https://www.huxiu.com/article/4842738.html",
       "source": "虎嗅",
-      "date": "2026-03-19T03:18:11.843Z",
+      "date": "2026-03-19T03:27:40.351Z",
       "summary": "",
       "category": "AI综合"
     },
     {
-      "title": "在AI高速迭代的当今，人文社科所培养的人的特质被反复提起——它们关于好奇心、关于批判力，也关于独属于人的情感。",
-      "link": "https://www.36kr.com/p/3729104083254918",
-      "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.363Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "成为全球AI工厂，中国的又一张国运王牌",
-      "link": "https://www.36kr.com/p/3728422952287620",
-      "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.363Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "Agent热潮背后的产业逻辑与机会",
-      "link": "https://www.36kr.com/p/3729087096044930",
-      "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.363Z",
-      "summary": "",
-      "category": "AI Agent"
-    },
-    {
-      "title": "Kimi“打破Transformer架构”真相",
-      "link": "https://www.36kr.com/p/3729098195893897",
-      "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.363Z",
-      "summary": "",
-      "category": "国产大模型"
-    },
-    {
-      "title": "它并非推翻Transformer的神话，而是为这座大厦添上了一块关键的砖石。",
-      "link": "https://www.36kr.com/p/3729098195893897",
-      "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.363Z",
-      "summary": "",
-      "category": "AI综合"
-    },
-    {
-      "title": "AI大爆炸加剧普通人焦虑，凯文·凯利回应时代情绪",
-      "link": "https://www.36kr.com/p/3729106911690375",
-      "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.363Z",
+      "title": "过去因为相信所以看见的那个 token，现在不用相信就能看见",
+      "link": "https://www.huxiu.com/article/4843388.html",
+      "source": "虎嗅",
+      "date": "2026-03-19T03:27:40.350Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -151,7 +87,7 @@
       "title": "AI助手现在认路了：谷歌地图直接「长」进大脑",
       "link": "https://www.36kr.com/p/3729245647879555",
       "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.362Z",
+      "date": "2026-03-19T03:27:39.849Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -159,7 +95,7 @@
       "title": "华人学生立大功，新王Mamba-3直击Transformer死穴，推理效率碾压7倍",
       "link": "https://www.36kr.com/p/3729245598514561",
       "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.362Z",
+      "date": "2026-03-19T03:27:39.849Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -167,7 +103,7 @@
       "title": "Transformer不保？今天，CMU普林斯顿原班人马杀回，新一代开源架构Mamba-3震撼降临。15亿参数战力爆表，性能比Transformer飙升4%。",
       "link": "https://www.36kr.com/p/3729245598514561",
       "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.362Z",
+      "date": "2026-03-19T03:27:39.849Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -175,7 +111,55 @@
       "title": "AI大厂疯抢，文科生时代红利来了?",
       "link": "https://www.36kr.com/p/3729104083254918",
       "source": "36Kr-AI",
-      "date": "2026-03-19T03:18:11.362Z",
+      "date": "2026-03-19T03:27:39.849Z",
+      "summary": "",
+      "category": "AI综合"
+    },
+    {
+      "title": "在AI高速迭代的当今，人文社科所培养的人的特质被反复提起——它们关于好奇心、关于批判力，也关于独属于人的情感。",
+      "link": "https://www.36kr.com/p/3729104083254918",
+      "source": "36Kr-AI",
+      "date": "2026-03-19T03:27:39.849Z",
+      "summary": "",
+      "category": "AI综合"
+    },
+    {
+      "title": "成为全球AI工厂，中国的又一张国运王牌",
+      "link": "https://www.36kr.com/p/3728422952287620",
+      "source": "36Kr-AI",
+      "date": "2026-03-19T03:27:39.849Z",
+      "summary": "",
+      "category": "AI综合"
+    },
+    {
+      "title": "Agent热潮背后的产业逻辑与机会",
+      "link": "https://www.36kr.com/p/3729087096044930",
+      "source": "36Kr-AI",
+      "date": "2026-03-19T03:27:39.849Z",
+      "summary": "",
+      "category": "AI Agent"
+    },
+    {
+      "title": "Kimi“打破Transformer架构”真相",
+      "link": "https://www.36kr.com/p/3729098195893897",
+      "source": "36Kr-AI",
+      "date": "2026-03-19T03:27:39.849Z",
+      "summary": "",
+      "category": "国产大模型"
+    },
+    {
+      "title": "它并非推翻Transformer的神话，而是为这座大厦添上了一块关键的砖石。",
+      "link": "https://www.36kr.com/p/3729098195893897",
+      "source": "36Kr-AI",
+      "date": "2026-03-19T03:27:39.849Z",
+      "summary": "",
+      "category": "AI综合"
+    },
+    {
+      "title": "AI大爆炸加剧普通人焦虑，凯文·凯利回应时代情绪",
+      "link": "https://www.36kr.com/p/3729106911690375",
+      "source": "36Kr-AI",
+      "date": "2026-03-19T03:27:39.849Z",
       "summary": "",
       "category": "AI综合"
     },
@@ -490,158 +474,6 @@
       "date": "Wed, 18 Mar 2026 02:45:10 +0000",
       "summary": "",
       "category": "AI综合"
-    },
-    {
-      "title": "Apple can delist apps \"with or without cause,\" judge says in loss for Musi app",
-      "link": "https://arstechnica.com/tech-policy/2026/03/judge-upholds-apple-delisting-of-free-musi-app-that-streams-songs-from-youtube/",
-      "source": "Ars Technica",
-      "date": "Tue, 17 Mar 2026 21:38:33 +0000",
-      "summary": "Judge tosses Musi case against Apple, sanctions lawyers for \"mak[ing] up facts.\"",
-      "category": "AI综合"
-    },
-    {
-      "title": "How World ID wants to put a unique human identity on every AI agent",
-      "link": "https://arstechnica.com/ai/2026/03/world-id-wants-you-to-put-a-cryptographically-unique-human-identity-behind-your-ai-agents/",
-      "source": "Ars Technica",
-      "date": "Tue, 17 Mar 2026 21:28:27 +0000",
-      "summary": "Iris scan-backed tokens could help stop agent swarms from overwhelming online systems.",
-      "category": "AI Agent"
-    },
-    {
-      "title": "Arizona indicts prediction market Kalshi for running illegal gambling operation",
-      "link": "https://arstechnica.com/tech-policy/2026/03/arizona-indicts-prediction-market-kalshi-for-running-illegal-gambling-operation/",
-      "source": "Ars Technica",
-      "date": "Tue, 17 Mar 2026 19:28:26 +0000",
-      "summary": "Desert state becomes first to file criminal case against prediction platform.",
-      "category": "AI综合"
-    },
-    {
-      "title": "langchain-anthropic==1.4.0",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.4.0",
-      "source": "LangChain",
-      "date": "2026-03-17T18:42:48Z",
-      "summary": "Changes since langchain-anthropic==1.3.5\n\nrelease(anthropic): 1.4 (#36018)\nfeat(anthropic): AnthropicPromptCachingMiddleware: apply explicit caching to system message and tool definitions (#35969)\nfea",
-      "category": "Anthropic"
-    },
-    {
-      "title": "langchain-anthropic==1.3.5",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.3.5",
-      "source": "LangChain",
-      "date": "2026-03-14T03:12:45Z",
-      "summary": "Changes since langchain-anthropic==1.3.4\n\nrelease(anthropic): 1.3.5 (#35873)\nfix(anthropic): Ignore general usage cache_creation fields if more specific fields are set (#35845)\nperf(.github): set a ti",
-      "category": "Anthropic"
-    },
-    {
-      "title": "langchain-mistralai==1.1.2",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-mistralai%3D%3D1.1.2",
-      "source": "LangChain",
-      "date": "2026-03-13T14:13:19Z",
-      "summary": "Changes since langchain-mistralai==1.1.1\n\nrelease(mistralai): 1.1.2 (#35835)\nfeat(model-profiles): new fields + `Makefile` target (#35788)\nfix(model-profiles): sort generated profiles by model ID for ",
-      "category": "模型"
-    },
-    {
-      "title": "langchain-classic==1.0.3",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-classic%3D%3D1.0.3",
-      "source": "LangChain",
-      "date": "2026-03-13T13:56:30Z",
-      "summary": "Changes since langchain-classic==1.0.2\n\nrelease(langchain): 1.0.3 (#35834)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/langchain (#35",
-      "category": "AI综合"
-    },
-    {
-      "title": "langchain-core==1.2.19",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.19",
-      "source": "LangChain",
-      "date": "2026-03-13T13:45:07Z",
-      "summary": "Changes since langchain-core==1.2.18\n\nrelease(core): 1.2.19 (#35832)\nchore(core): move BaseCrossEncoder to langchain-core (#35809)\nchore: bump tornado from 6.5.2 to 6.5.5 in /libs/core (#35775)",
-      "category": "AI综合"
-    },
-    {
-      "title": "langchain==1.2.12",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.12",
-      "source": "LangChain",
-      "date": "2026-03-11T22:21:17Z",
-      "summary": "Changes since langchain==1.2.11\n\nrelease(langchain_v1): 1.2.12 (#35770)\nfeat: tracing for wrap model + tool call (#35765)",
-      "category": "模型"
-    },
-    {
-      "title": "langchain==1.2.11",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.2.11",
-      "source": "LangChain",
-      "date": "2026-03-10T19:46:31Z",
-      "summary": "Changes since langchain==1.2.10\n\nrelease(langchain_v1): 1.2.11 (#35723)\nfix(langchain): normalize custom detector output to prevent KeyError in hash/mask strategies (#35651)\nchore: bump the minor-and-",
-      "category": "AI综合"
-    },
-    {
-      "title": "langchain-openai==1.1.11",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.1.11",
-      "source": "LangChain",
-      "date": "2026-03-09T23:02:48Z",
-      "summary": "Changes since langchain-openai==1.1.10\n\nfix(openai): bump min core version (#35705)\nrelease(openai): 1.1.11 (#35703)\nfix(openai): update responses API model detection for pro and codex models (#35594)",
-      "category": "OpenAI"
-    },
-    {
-      "title": "langchain-core==1.2.18",
-      "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.2.18",
-      "source": "LangChain",
-      "date": "2026-03-09T20:40:19Z",
-      "summary": "Changes since langchain-core==1.2.17\n\nrelease(core): 1.2.18 (#35704)\nfix(core): fix double backticks in deprecation docstring for alternative_import (#35658)\nfix(core): preserve default_factory when g",
-      "category": "AI综合"
-    },
-    {
-      "title": "v5.2.0: GLM-5, Qwen3.5, Voxtral Realtime, VibeVoice Acoustic Tokenizer",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.2.0",
-      "source": "Transformers",
-      "date": "2026-02-16T18:55:53Z",
-      "summary": "## New Model additions\r\n\r\n### VoxtralRealtime\r\n\r\n<img width=\"1920\" height=\"1080\" alt=\"image\" src=\"https://github.com/user-attachments/assets/80e37670-6d70-402b-8c8e-ccfb8c32df2d\" />\r\n\r\nVoxtralRealtime",
-      "category": "模型"
-    },
-    {
-      "title": "v5.1.0: EXAONE-MoE, PP-DocLayoutV3, Youtu-LLM, GLM-OCR",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.1.0",
-      "source": "Transformers",
-      "date": "2026-02-05T15:44:54Z",
-      "summary": "## New Model additions\r\n\r\n### EXAONE-MoE\r\n\r\n<img width=\"2278\" height=\"1142\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0c3d5341-0483-49c3-8467-f9784ec94b37\" />\r\n\r\nK-EXAONE is a large-",
-      "category": "大模型"
-    },
-    {
-      "title": "Transformers v5",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.0.0",
-      "source": "Transformers",
-      "date": "2026-01-26T10:17:10Z",
-      "summary": "## Transformers v5 release notes\r\n\r\n<img width=\"1800\" height=\"1013\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7b5187d7-6945-4108-a546-6d1d7bfb55e3\" />\r\n\r\n- Highlights\r\n- Significant ",
-      "category": "AI综合"
-    },
-    {
-      "title": "Release candidate v5.0.0rc3",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.0.0rc3",
-      "source": "Transformers",
-      "date": "2026-01-26T10:02:55Z",
-      "summary": "# Release candidate v5.0.0rc3\r\n\r\n## New models:\r\n\r\n* [GLM-4.7] GLM-Lite Supoort by @zRzRzRzRzRzRzR in https://github.com/huggingface/transformers/pull/43031\r\n* [GLM-Image] AR Model Support for GLM-Ima",
-      "category": "模型"
-    },
-    {
-      "title": "Patch release v4.57.6",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v4.57.6",
-      "source": "Transformers",
-      "date": "2026-01-16T10:40:02Z",
-      "summary": "## What's Changed\r\nAnother fix for qwen vl models that prevented correctly loading the associated model type - this works together with https://github.com/huggingface/transformers/pull/41808 of the pr",
-      "category": "模型"
-    },
-    {
-      "title": "Patch release v4.57.5",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v4.57.5",
-      "source": "Transformers",
-      "date": "2026-01-13T13:29:13Z",
-      "summary": "## What's Changed\r\nShould not have said last patch :wink: These should be the last remaining fixes that got lost in between patches and the transition to v5. \r\n\r\n* QwenVL: add skipped keys in setattr ",
-      "category": "AI综合"
-    },
-    {
-      "title": "Patch release v4.57.4",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v4.57.4",
-      "source": "Transformers",
-      "date": "2026-01-13T11:07:40Z",
-      "summary": "## What's Changed\r\nLast patch release for v4: We have a few small fixes for remote generation methods (e.g. group beam search), vLLM, and an offline tokenizer fix (if it's already been cached).\r\n\r\n* G",
-      "category": "大模型"
     }
   ]
 }

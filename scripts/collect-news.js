@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const Parser = require('rss-parser');
 const fs = require('fs').promises;
 const path = require('path');
+const { getAllHistoricalLinks } = require("./utils");
 const { format } = require('date-fns');
 
 // 配置资讯来源 - 已验证可用
@@ -90,13 +91,20 @@ async function collectNews() {
     }
   }
 
-  console.log(`\n成功采集 ${successCount}/${sources.length} 个数据源`);
+  console.log(`
+成功采集 ${successCount}/${sources.length} 个数据源`);
 
-  // 去重
+  // 读取历史链接用于去重
+  const historicalLinks = await getAllHistoricalLinks();
+  console.log(`历史资讯库共有 ${historicalLinks.size} 条链接`);
+  
+  // 去重（同时过滤历史已采集的链接）
   const seen = new Set();
   const uniqueNews = allNews.filter(n => {
     const key = n.title.substring(0, 50);
     if (seen.has(key)) return false;
+    // 跳过历史已采集的链接
+    if (historicalLinks.has(n.link)) return false;
     seen.add(key);
     return true;
   });
