@@ -16,8 +16,7 @@ async function generateHTML() {
   const newsFiles = files.filter(f => f.startsWith('news-') && f.endsWith('.json'));
   const allDates = newsFiles
     .map(f => f.replace('news-', '').replace('.json', ''))
-    .sort()
-    .reverse();
+    .sort();
   
   // 过滤：只过滤纯英文（0个中文字符）
   const filterPureEnglish = (news) => {
