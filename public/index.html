@@ -124,8 +124,8 @@ document.getElementById("nextBtn").addEventListener("click", function() {
   if (currentIndex < dates.length - 1) updateDisplay(dates[currentIndex + 1]); 
 });
 
-dateSelect.value = dates[0];
-updateDisplay(dates[0]);
+dateSelect.value = dates[dates.length - 1];
+updateDisplay(dates[dates.length - 1]);
 </script>
 </body>
 </html>
